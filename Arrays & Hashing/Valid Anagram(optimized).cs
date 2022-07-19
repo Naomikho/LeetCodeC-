@@ -3,6 +3,7 @@ public class Solution {
         if (s.Length != t.Length)
             return false;
         
+        //char[] arrays can be sorted. Neat!
         char[] source = s.ToCharArray(), target = t.ToCharArray();
         
         Array.Sort(source);
